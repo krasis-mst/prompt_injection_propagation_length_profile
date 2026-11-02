@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "krasis-mst-quantize_jd454"
+name = "krasis-mst-prompt_injection_propagation_length_profile"
 version = "0.1.0"
 description = "按段落统计量化与稀疏化研究员·提示注入的跨轮传播相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://krasis-mst.github.io"
-Repository = "https://github.com/krasis-mst/quantize_jd454"
-Issues = "https://github.com/krasis-mst/quantize_jd454/issues"
+Repository = "https://github.com/krasis-mst/prompt_injection_propagation_length_profile"
+Issues = "https://github.com/krasis-mst/prompt_injection_propagation_length_profile/issues"
 
 [project.scripts]
-quantize_jd454 = "quantize_jd454:main"
+prompt_injection_propagation_length_profile = "prompt_injection_propagation_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["quantize_jd454"]
+py-modules = ["prompt_injection_propagation_length_profile"]
